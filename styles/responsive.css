@@ -1,0 +1,34 @@
+@media screen and (max-width: 425px) {
+    nav{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    nav h2{
+        margin-bottom: 0;
+    }
+    nav ul li a{
+        padding: 10px;
+    }
+    nav ul{
+        gap: 0px;
+        padding: 0;
+    }
+    .banner{
+        padding: 0 8px;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .banner-content{
+        width: auto;
+    }
+    .banner-content h1{
+        font-size: 2rem;
+    }
+    .banner-image img{
+        width: 80%;
+        padding: 50px;
+    }
+    .banner-content button{
+        margin-top: 20px;
+    }
+}
